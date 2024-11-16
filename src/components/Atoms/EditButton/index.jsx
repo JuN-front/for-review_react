@@ -19,7 +19,9 @@ const StyledButton = styled.button`
   align-items: center;
   flex-shrink: 0;
   cursor: pointer;
-  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
   :hover {
     background-color: ${COLOR.LIGHT_GRAY_TRANSLUCENT};
   }
