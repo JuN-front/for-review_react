@@ -12,6 +12,7 @@ export const EditButton = ({ onClick }) => {
 };
 
 const StyledButton = styled.button`
+  border: none;
   display: flex;
   width: 20px;
   height: 20px;
@@ -19,9 +20,12 @@ const StyledButton = styled.button`
   align-items: center;
   flex-shrink: 0;
   cursor: pointer;
-  border: none;
-  outline: none;
-  background-color: transparent;
+  border-radius: 10px;
+  background-color: ${COLOR.LIGHT_GRAY_TRANSPARENT};
+  img {
+    width: 20px;
+    height: 20px;
+  }
   :hover {
     background-color: ${COLOR.LIGHT_GRAY_TRANSLUCENT};
   }
